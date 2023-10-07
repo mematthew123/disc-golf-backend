@@ -1,3 +1,5 @@
+package com.example.discgolf.model;
+
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
@@ -63,7 +65,7 @@ public class DiscGolfDisc {
     // toString method
     @Override
     public String toString() {
-        return "DiscGolfDisc{" +
+        return "com.example.discgolf.model.DiscGolfDisc{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", brand='" + brand + '\'' +
